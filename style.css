@@ -8,8 +8,9 @@
 }
 
 body {
-  font-family: "Inter", serif;
-}
+    width: 100%;
+        font-family: "Inter", serif;
+    }
 
 .navbar {
     margin: 0px 80px 0px 80px;
@@ -86,4 +87,84 @@ body {
     align-items: center;
     width: 10%;
     cursor: pointer;
+}
+
+
+/*This is Form Section*/
+
+.offer-body{
+    display: flex;
+    flex-direction: row;
+    max-width: 80%;
+    overflow: 
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+    
+
+
+.offer-box{
+    position: absolute;
+    height: 200px;
+    top: 20%;
+    left: 300px;
+    width: 50%;
+    margin: auto;
+    padding: 20px 20px 30px 40px;
+    border: 1px solid #00EBC7;
+    margin-top: 130px;
+    border-radius: 10px;
+background-color: white;
+
+& h1{
+    text-align: center;
+    font-weight: 500;
+}
+}
+}
+/*This is Form Section*/
+
+.dropdown-option{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 10px 10px 60px 0px;
+
+    & Select{
+        
+        margin-right: 10px;
+        padding: 10px 25px;
+        padding-right: 20px;
+        border-radius: 10px;
+        border: none;
+        background-color: #ECECEC;
+    }
+}
+.find-offer{
+    margin-top: -40px;
+    margin-right: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-right: 10px;
+    
+
+    & input{
+        padding: 10px 154px;
+        border-radius: 10px;
+        border: none;
+        background-color: #ECECEC;
+        text-align: center;
+   
+    }
+    & button{
+        background-color: #00EBC7;
+        border: none;
+        border-radius: 20px;
+        padding: 10px 38px;
+        font-weight: 600;
+        cursor: pointer;
+}
 }
