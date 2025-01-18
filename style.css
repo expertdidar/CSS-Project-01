@@ -9,7 +9,8 @@
 
 body {
     width: 100%;
-        font-family: "Inter", serif;
+    margin: auto;
+    font-family: "Inter", serif;
     }
 
 .navbar {
@@ -95,11 +96,9 @@ body {
 .offer-body{
     display: flex;
     flex-direction: row;
-    max-width: 80%;
-    overflow: 
+    width: 100%;
     object-fit: cover;
     justify-content: center;
-    align-items: center;
 }
 
 .offer-box{
@@ -170,7 +169,7 @@ background-color: white;
 }
 
 .zappr-btn{
-    margin-top: 270px;
+    margin-top: 140px;
     margin-right: 0px;
     margin-left: 270px;
     padding: 7px 25px;
@@ -183,4 +182,24 @@ background-color: white;
     & a{
         color: white;
         }
+}
+
+/*This is Client Logo Section*/
+.client-logo{
+    margin-top: 30px;
+    margin-left: -307px;
+    margin-right: -260px;
+    padding: 30px 80px 30px 80px;
+    background-color: yellow;
+}
+    & h1{
+        font-weight: 600;
+        text-align: center;
+    }
+
+    & img{
+        max-width: 100%;
+        width: 100%;
+        height: 100%;
+    }
 }
