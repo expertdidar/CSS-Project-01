@@ -100,8 +100,7 @@ body {
     object-fit: cover;
     justify-content: center;
     align-items: center;
-    
-
+}
 
 .offer-box{
     position: absolute;
@@ -121,7 +120,7 @@ background-color: white;
     font-weight: 500;
 }
 }
-}
+
 /*This is Form Section*/
 
 .dropdown-option{
@@ -142,6 +141,7 @@ background-color: white;
         background-color: #ECECEC;
     }
 }
+
 .find-offer{
     margin-top: -40px;
     margin-right: 0px;
@@ -157,8 +157,8 @@ background-color: white;
         border: none;
         background-color: #ECECEC;
         text-align: center;
-   
-    }
+            }
+    
     & button{
         background-color: #00EBC7;
         border: none;
@@ -166,5 +166,21 @@ background-color: white;
         padding: 10px 38px;
         font-weight: 600;
         cursor: pointer;
+    }
 }
+
+.zappr-btn{
+    margin-top: 270px;
+    margin-right: 0px;
+    margin-left: 270px;
+    padding: 7px 25px;
+    border-radius: 30px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    
+
+    & a{
+        color: white;
+        }
 }
