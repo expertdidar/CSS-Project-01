@@ -220,64 +220,67 @@ body {
     /*This is About Section*/
 
     .about-section{
-        
-        align-items: center;
         width: 100%; /* Restricts content width */
         margin: 0 auto; /* Centers the container */
         padding: 20px; /* Adds inner spacing */
         padding: 30px;
+        margin-bottom: 100px;
 
         & h1{
+            margin-left: -380px;
+            font-size: 25px;
             font-weight: 600;
             text-align: left;
         }
-
+    
         .about-box{
-            margin-left: -220px;
+            margin-left: -280px;
             align-items: center;
             display: flex;
             text-align: center;
             padding-top: 40px 40px;
-            column-gap: 70px;
+            column-gap: 100px;
         }
         & div{
             padding-top: 20px;
-            height: 250px;
-            width: 250px;
+            height: 280px;
+            width: 280px;
             
             
         }
         & h2{
-            width: 250px;
-            font-size: 20px;
+            width: 280px;
+            font-size: 25px;
             font-weight: 600;
 
         }
 
         & p{
-            font-size: 13px;
-            line-height: 20px;
+            font-size: 16px;
+            line-height: 25px;
             text-align: center;
             color: #646464;
         }
 
         & a{
             font-weight: 600;
-            font-size: 12px;
+            font-size: 16px;
             color: black;
             
         }
         & img{
             max-width: 100%;
-            width: 60px;
-            height: 60px;
+            width: 70px;
+            height: 70px;
         }
 
         & button{
+            font-size: 20px;
             font-weight: 500;
-            margin-top: 80px;
+            margin-top: 230px;
             margin-right: 0px;
-            margin-left: 190px;
+            margin-left: 250px;
+            margin-bottom: 40px;
             padding: 7px 25px;
             border-radius: 30px;
             background-color: transparent;
@@ -296,20 +299,37 @@ body {
         }
     }
 
+    .hr{
+        margin-left: -415px;
+        width: 100%;
+        padding: 0px 550px 0px 195px;
+        justify-items: center;
+        align-items: center;
+        height: 0.4px;
+        background-color: black;
+    }
+
     /*This is Buy/Sell Section*/
     .buyandsell{
-        display: flex;
-        max-width: 1200px; /* Restricts content width */
+    margin-inline-start: -50%;
+    width: 100%;
+    margin-top: -140px;
+    height: 400px;
+    padding: 20px 370px 10px 375px; 
+    align-items: center;
+    background-color: #F8F8F8;
         }
 
-
     .buy-sec{
+        margin-left: -320px;
         box-sizing: border-box;
-        padding: 40px 20px;
-        left: 10px;
-        background-color: #F8F8F8;
+        padding: 40px 100px;
+        margin-top: -40px;
+        
+        
 
         & h1{
+            padding-left: 15px;
             font-weight: 600;
             text-align: left;
             
@@ -341,12 +361,15 @@ body {
     /*This is Sell Section*/
 
     .sell-sec{
+        margin-top: -450px;
         box-sizing: border-box;
-        padding: 40px 20px;
+        padding: 40px 480px;
         left: 10px;
-        background-color: #F8F8F8;
+        
+        
 
         & h1{
+            padding-left: 15px;
             font-weight: 600;
             text-align: left;
             
@@ -363,6 +386,7 @@ body {
             border-radius: 15px;
             align-items: center;
             justify-content: left;
+            
 
             & p{
                 font-size: 18px;
