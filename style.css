@@ -463,36 +463,50 @@ body {
 
     /*This is Sign up Text Section*/
 
-    .signup-text{
-        width: 1200px;
-        height: 300px;
+    .signup-text_box{
+        margin-inline-start: -50%;
+        width: 100%;
+        height: 500px;
+        padding: 20px 370px 10px 375px; 
+        align-items: center;
         background-color: #CFBAFF;
-        padding: 60px 30px 30px 30px;
 
         & h1{
-            padding: 10px 45px;
-            font-size: 50px;
+            margin-top: 100px;
+            margin-bottom: 100px;
+            margin-left: -180px;
+            margin-right: -200px;
+            font-size: 65px;
             font-weight: 600;
-            text-align: center;
-            color: black;            
         }
 
         & button{
-            
-            font-size: 20px;
-            margin-top: 20px;
+            width: 190px;
+            font-size: 24px;
+            font-weight: 500;
+            margin-top: 70px;
             margin-right: 0px;
-            margin-left: 550px;
-            padding: 7px 25px;
-            border-radius: 30px;
+            margin-left: 280px;
+            margin-bottom: 40px;
+            padding: 8px 25px;
+            border-radius: 20px;
             background-color: black;
-            border: 1px solid;
+            border: 1px solid black;
             color: white;
             cursor: pointer;
+            text-decoration: none;
+            
+            & a{
+                color: white;
+                text-decoration: none;
+            }
             
             &:hover{
                 background-color: white;
                 color: black;
+                & a{
+                    color: #000000;
+                }
             }
         }
     }
