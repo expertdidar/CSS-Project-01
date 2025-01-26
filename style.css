@@ -12,20 +12,20 @@ body {
     margin: 0 auto;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-color: white; /* Light background for readability */
-    color: #333; /* Text color */
+    background-color: white; 
+    color: #333; 
   }
   
   .section {
-    max-width: 100%; /* Restricts content width */
-    margin: 0 auto; /* Centers the container */
-    padding: 20px; /* Adds inner spacing */
+    max-width: 100%; 
+    margin: 0 auto; 
+    padding: 20px; 
   }
 
 .navbar {
-        max-width: 100%; /* Restricts content width */
-        margin: 0 auto; /* Centers the container */
-        padding: 20px 50px 10px 50px; /* Adds inner spacing */
+        max-width: 100%; 
+        margin: 0 auto; 
+        padding: 20px 50px 10px 50px; 
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -220,9 +220,9 @@ body {
     /*This is About Section*/
 
     .about-section{
-        width: 100%; /* Restricts content width */
-        margin: 0 auto; /* Centers the container */
-        padding: 20px; /* Adds inner spacing */
+        width: 100%; 
+        margin: 0 auto; 
+        padding: 20px; 
         padding: 30px;
         margin-bottom: 100px;
 
@@ -510,3 +510,71 @@ body {
             }
         }
     }
+
+
+    /*This is Footer Section*/
+    .footer{
+        height: 480px;
+        background-color: black;
+        padding: 100px 60px;
+        display: flex;
+        justify-content: space-between;
+        margin-inline-start: -50%;
+        margin-right: -361px;
+        
+        & img{
+            margin-left: 100px;
+            padding: 20px 40px;
+        }
+
+        .product-footer{
+            display: flex;
+            margin-right: 300px;
+            padding: 0px 0px;
+            display: flex;
+            flex-direction: row;
+            gap: 150px;
+            line-height: 35px;
+            justify-content: left;
+            align-items: top;
+            list-style: none;
+            
+            & h3{
+                color: white;
+                font-weight: 600;
+            }
+
+            & a{
+                font-size: 18px;
+                color: white;
+                text-decoration: none;
+                text-align: left;
+            }
+        }
+
+        .footer-text{
+            font-size: 16px;
+            padding-top: 40px;
+            margin-top: 380px;
+            position: absolute;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+
+            & p{
+                margin-top: 30px;
+                font-weight: 100;
+                opacity: 0.9;
+                line-height: 22px;
+            }
+
+            & hr{
+                    margin-left: -60px;
+                    margin-right: -60px;
+                    width: 900px;
+                    padding: 0px 612px 0px 0px;
+                    height: 0.2px;
+                }
+            }
+        }
