@@ -1,84 +1,81 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap") 
-
-
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap") * {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 body {
-    width: 80%;
-    margin: 0 auto;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    background-color: white; 
-    color: #333; 
+  width: 80%;
+  margin: 0 auto;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: white;
+  color: #333;
 }
 
 .section {
-    max-width: 100%; 
-    margin: 0 auto; 
-    padding: 20px; 
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 .navbar {
-        max-width: 100%; 
-        margin: 0 auto; 
-        padding: 20px 50px 10px 50px; 
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    
-    .logo {
-        padding-top: 10px;
-        cursor: pointer;
-    }
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px 50px 10px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
-    .nav-link {
-        font-size: 20px;
-        font-weight: 500px;
-        list-style: none;
+  .logo {
+    padding-top: 10px;
+    cursor: pointer;
+  }
+
+  .nav-link {
+    font-size: 20px;
+    font-weight: 500px;
+    list-style: none;
 
     & li {
-        display: inline-block;
-        padding: 8px 20px;
+      display: inline-block;
+      padding: 8px 20px;
     }
 
     & a {
-        color: #000000;
-        text-decoration: none;
-        transition: all 0.3s ease 0s;
-        }
-
-        a:hover{
-            color: #00EBC7;
-            font-weight: 500;
-        }
+      color: #000000;
+      text-decoration: none;
+      transition: all 0.3s ease 0s;
     }
+
+    a:hover {
+      color: #00ebc7;
+      font-weight: 500;
+    }
+  }
 }
 
-.nab-buttom{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
+.nab-buttom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 
-.login-btn{
+  .login-btn {
     font-size: 17px;
     padding: 5px 25px;
-    background-color: #F1F1F1;
+    background-color: #f1f1f1;
     border-radius: 30px;
     border: none;
     cursor: pointer;
 
-    &:hover{
-        background-color: #00EBC7;
-        color: white;
+    &:hover {
+      background-color: #00ebc7;
+      color: white;
     }
-}
+  }
 
-.signup-btn{
+  .signup-btn {
     font-size: 17px;
     padding: 5px 25px;
     color: white;
@@ -87,558 +84,545 @@ body {
     border: none;
     cursor: pointer;
 
-    &:hover{
-        background-color: #00EBC7;
-        color: black;
+    &:hover {
+      background-color: #00ebc7;
+      color: black;
     }
-    }
+  }
 }
 
-.nav-icon{
-    justify-content: center;
-    align-items: center;
-    width: 10%;
-    cursor: pointer;
+.nav-icon {
+  justify-content: center;
+  align-items: center;
+  width: 10%;
+  cursor: pointer;
 }
-
 
 /*This is Form Section*/
 
-.offer-body{
-    position: absolute;
-    margin-bottom: 100px;
-    width: 100dvw;
+.offer-body {
+  position: absolute;
+  margin-bottom: 100px;
+  width: 100dvw;
 }
 
-.offer-box{
-    font-size: 20px;
-    align-items: center;
-    position: absolute;
-    height: 220px;
-    top: 30%;
-    width: 40%;
-    padding: 20px 0px 20px 50px;
-    border: 1px solid #00EBC7;
-    right: 40%;
-    border-radius: 15px;
-    background-color: white;
+.offer-box {
+  font-size: 20px;
+  align-items: center;
+  position: absolute;
+  height: 220px;
+  top: 30%;
+  width: 40%;
+  padding: 20px 0px 20px 50px;
+  border: 1px solid #00ebc7;
+  right: 40%;
+  border-radius: 15px;
+  background-color: white;
 
-& h1{
+  & h1 {
     text-align: center;
     font-weight: 500;
-}
+  }
 }
 
 /*This is Form Section*/
 
-.dropdown-option{
-    margin-left: 10px;
+.dropdown-option {
+  margin-left: 10px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px 10px 10px 10px;
+
+  & Select {
+    margin-right: 20px;
+    padding: 10px 40px;
+    padding-right: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: #ececec;
+  }
+
+  .find-offer {
+    margin: 0% auto;
+    display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 10px;
-    padding: 10px 10px 10px 10px;
+    padding-right: 10px;
+    padding-top: 25px;
+    gap: 20px;
 
-    & Select{
-        
-        margin-right: 20px;
-        padding: 10px 40px;
-        padding-right: 30px;
-        border-radius: 10px;
-        border: none;
-        background-color: #ECECEC;
+    & input {
+      justify-content: center;
+      padding: 10px 185px;
+      border-radius: 10px;
+      border: none;
+      background-color: #ececec;
+      text-align: center;
     }
 
-    .find-offer{
-        margin: 0% auto;
-        display: flex;
-        align-items: center;
-        padding-right: 10px;
-        padding-top: 25px;
-        gap: 20px;
-    
-        & input{
-            justify-content: center;
-            padding: 10px 185px;
-            border-radius: 10px;
-            border: none;
-            background-color: #ECECEC;
-            text-align: center;
-                }
-        
-        & button{
-            background-color: #00EBC7;
-            border: none;
-            border-radius: 20px;
-            padding: 10px 44px;
-            font-weight: 600;
-            cursor: pointer;
-        }
+    & button {
+      background-color: #00ebc7;
+      border: none;
+      border-radius: 20px;
+      padding: 10px 44px;
+      font-weight: 600;
+      cursor: pointer;
     }
+  }
 }
 
+.zappr-btn {
+  font-size: 16px;
+  margin-top: 200px;
+  margin-right: 0px;
+  margin-left: 300px;
+  margin-bottom: 80px;
+  padding: 10px 40px;
+  border-radius: 30px;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
 
-
-.zappr-btn{
-    font-size: 16px;
-    margin-top: 200px;
-    margin-right: 0px;
-    margin-left: 300px;
-    margin-bottom: 80px;
-    padding: 10px 40px;
-    border-radius: 30px;
-    background-color: transparent;
-    border: 1px solid white;
+  & a {
     color: white;
-    
-
-    & a{
-        color: white;
-        }
+  }
 }
 
 /*This is Client Logo Section*/
-.client-logo{
-    margin-inline-start: -50%;
+.client-logo {
+  margin-inline-start: -50%;
+  width: 100%;
+  height: 100%;
+  padding: 20px 370px 10px 375px;
+  align-items: center;
+  background-color: yellow;
+}
+
+.customer-logo {
+  font-weight: 600;
+  text-align: center;
+
+  & img {
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     height: 100%;
-    padding: 20px 370px 10px 375px; 
+  }
+}
+/*This is About Section*/
+
+.about-section {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  padding: 30px;
+  margin-bottom: 100px;
+
+  & h1 {
+    margin-left: -380px;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: left;
+  }
+
+  .about-box {
+    margin-left: -280px;
     align-items: center;
-    background-color: yellow;
+    display: flex;
+    text-align: center;
+    padding-top: 40px 40px;
+    column-gap: 100px;
+  }
+  & div {
+    padding-top: 20px;
+    height: 280px;
+    width: 280px;
+  }
+  & h2 {
+    width: 280px;
+    font-size: 25px;
+    font-weight: 600;
+  }
+
+  & p {
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    color: #646464;
+  }
+
+  & a {
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 16px;
+    color: black;
+  }
+  & img {
+    max-width: 100%;
+    width: 70px;
+    height: 70px;
+  }
+
+  & button {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 230px;
+    margin-right: 0px;
+    margin-left: 250px;
+    margin-bottom: 40px;
+    padding: 7px 25px;
+    border-radius: 30px;
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+    cursor: pointer;
+
+    & a {
+      color: black;
+      text-decoration: none;
+    }
+
+    &:hover {
+      background-color: black;
+      color: white;
+      & a {
+        color: white;
+      }
+    }
+  }
 }
 
-.customer-logo{
-        font-weight: 600;
-        text-align: center;
-    
-
-    & img{
-        object-fit: cover;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        height: 100%;
-    }
+.hr {
+  margin-left: -415px;
+  width: 100%;
+  padding: 0px 550px 0px 195px;
+  justify-items: center;
+  align-items: center;
+  height: 0.4px;
+  background-color: black;
 }
-    /*This is About Section*/
 
-    .about-section{
-        width: 100%; 
-        margin: 0 auto; 
-        padding: 20px; 
-        padding: 30px;
-        margin-bottom: 100px;
+/*This is Buy/Sell Section*/
+.buyandsell {
+  margin-inline-start: -50%;
+  width: 100%;
+  margin-top: -140px;
+  height: 550px;
+  padding: 20px 370px 10px 375px;
+  align-items: center;
+  background-color: #f8f8f8;
+}
 
-        & h1{
-            margin-left: -380px;
-            font-size: 25px;
-            font-weight: 600;
-            text-align: left;
-        }
-    
-        .about-box{
-            margin-left: -280px;
-            align-items: center;
-            display: flex;
-            text-align: center;
-            padding-top: 40px 40px;
-            column-gap: 100px;
-        }
-        & div{
-            padding-top: 20px;
-            height: 280px;
-            width: 280px;
-            
-            
-        }
-        & h2{
-            width: 280px;
-            font-size: 25px;
-            font-weight: 600;
+.buy-sec {
+  margin-left: -320px;
+  box-sizing: border-box;
+  padding: 40px 100px;
+  margin-top: -40px;
 
-        }
-
-        & p{
-            font-size: 16px;
-            line-height: 25px;
-            text-align: center;
-            color: #646464;
-        }
-
-        & a{
-            cursor: pointer;
-            font-weight: 600;
-            font-size: 16px;
-            color: black;
-            
-        }
-        & img{
-            max-width: 100%;
-            width: 70px;
-            height: 70px;
-        }
-
-        & button{
-            font-size: 20px;
-            font-weight: 500;
-            margin-top: 230px;
-            margin-right: 0px;
-            margin-left: 250px;
-            margin-bottom: 40px;
-            padding: 7px 25px;
-            border-radius: 30px;
-            background-color: transparent;
-            border: 1px solid black;
-            color: black;
-            cursor: pointer;
-            
-            & a{
-                color: black;
-                text-decoration: none;
-            }
-            
-            &:hover{
-                background-color: black;
-                color: white;
-                & a{
-                    color: white;
-                }
-            }
-        }
-    }
-
-    .hr{
-        margin-left: -415px;
-        width: 100%;
-        padding: 0px 550px 0px 195px;
-        justify-items: center;
-        align-items: center;
-        height: 0.4px;
-        background-color: black;
-    }
-
-    /*This is Buy/Sell Section*/
-    .buyandsell{
-    margin-inline-start: -50%;
-    width: 100%;
-    margin-top: -140px;
-    height: 550px;
-    padding: 20px 370px 10px 375px; 
+  & h1 {
+    padding-left: 15px;
+    font-weight: 600;
+    text-align: left;
+  }
+  & div {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    height: 60px;
+    width: 450px;
+    padding: 10px 30px 10px 25px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 15px;
     align-items: center;
-    background-color: #F8F8F8;
-        }
+    justify-content: left;
 
-    .buy-sec{
-        margin-left: -320px;
-        box-sizing: border-box;
-        padding: 40px 100px;
-        margin-top: -40px;
-        
-        
+    & p {
+      font-size: 18px;
+    }
+  }
+  & img {
+    width: 50px;
+    height: 50px;
+  }
+  & button {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 70px;
+    margin-right: 0px;
+    margin-left: 160px;
+    margin-bottom: 40px;
+    padding: 7px 25px;
+    border-radius: 20px;
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
 
-        & h1{
-            padding-left: 15px;
-            font-weight: 600;
-            text-align: left;
-            
-        }
-        & div{
-            display: flex;
-            justify-content: space-between;
-            gap: 20px;
-            height: 60px;
-            width: 450px;
-            padding: 10px 30px 10px 25px;
-            background-color: white;
-            border: 1px solid black;
-            border-radius: 15px;
-            align-items: center;
-            justify-content: left;
-
-            & p{
-                font-size: 18px;
-            }
-        }
-        & img{
-            width: 50px;
-            height: 50px;
-        }
-        & button{
-                font-size: 18px;
-                font-weight: 500;
-                margin-top: 70px;
-                margin-right: 0px;
-                margin-left: 160px;
-                margin-bottom: 40px;
-                padding: 7px 25px;
-                border-radius: 20px;
-                background-color: black;
-                border: 1px solid black;
-                color: white;
-                cursor: pointer;
-                text-decoration: none;
-
-                & a{
-                    color: white;
-                    text-decoration: none;
-                }
-                
-                &:hover{
-                    background-color: white;
-                    color: black;
-                    & a{
-                        color: #000000;
-                    }
-                }
-                }
+    & a {
+      color: white;
+      text-decoration: none;
     }
 
-    /*This is Sell Section*/
+    &:hover {
+      background-color: white;
+      color: black;
+      & a {
+        color: #000000;
+      }
+    }
+  }
+}
 
-    .sell-sec{
-        margin-top: -595px;
-        box-sizing: border-box;
-        padding: 40px 480px;
-        left: 10px;
-        display: flex;
-        flex-direction: column;
-        
+/*This is Sell Section*/
 
-        & h1{
-            padding-left: 15px;
-            font-weight: 600;
-            text-align: left;
-            
-        }
-        & div{
-            display: flex;
-            justify-content: space-between;
-            gap: 20px;
-            height: 60px;
-            width: 450px;
-            padding: 10px 0px 10px 25px;
-            background-color: white;
-            border: 1px solid black;
-            border-radius: 15px;
-            align-items: center;
-            justify-content: left;
-            
+.sell-sec {
+  margin-top: -595px;
+  box-sizing: border-box;
+  padding: 40px 480px;
+  left: 10px;
+  display: flex;
+  flex-direction: column;
 
-            & p{
-                font-size: 18px;
-            }
-        }
-        & img{
-            width: 50px;
-            height: 50px;
-        }
-        
-        .sell-button{
-            width: 190px;
-            font-size: 18px;
-            font-weight: 500;
-            margin-top: 70px;
-            margin-right: 0px;
-            margin-left: 160px;
-            margin-bottom: 40px;
-            padding: 8px 25px;
-            border-radius: 20px;
-            background-color: black;
-            border: 1px solid black;
-            color: white;
-            cursor: pointer;
-            text-decoration: none;
-            
-            & a{
-                color: white;
-                text-decoration: none;
-            }
-            
-            &:hover{
-                background-color: white;
-                color: black;
-                & a{
-                    color: #000000;
-                }
-            }
-        }
+  & h1 {
+    padding-left: 15px;
+    font-weight: 600;
+    text-align: left;
+  }
+  & div {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    height: 60px;
+    width: 450px;
+    padding: 10px 0px 10px 25px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: left;
+
+    & p {
+      font-size: 18px;
+    }
+  }
+  & img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .sell-button {
+    width: 190px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 70px;
+    margin-right: 0px;
+    margin-left: 160px;
+    margin-bottom: 40px;
+    padding: 8px 25px;
+    border-radius: 20px;
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+
+    & a {
+      color: white;
+      text-decoration: none;
     }
 
-    /*This is Sign up Text Section*/
+    &:hover {
+      background-color: white;
+      color: black;
+      & a {
+        color: #000000;
+      }
+    }
+  }
+}
 
-    .signup-text_box{
-        margin-inline-start: -50%;
-        width: 100%;
-        height: 500px;
-        padding: 20px 370px 10px 375px; 
-        align-items: center;
-        background-color: #CFBAFF;
+/*This is Sign up Text Section*/
 
-        & h1{
-            margin-top: 100px;
-            margin-bottom: 100px;
-            margin-left: -180px;
-            margin-right: -200px;
-            font-size: 65px;
-            font-weight: 600;
-        }
+.signup-text_box {
+  margin-inline-start: -50%;
+  width: 100%;
+  height: 500px;
+  padding: 20px 370px 10px 375px;
+  align-items: center;
+  background-color: #cfbaff;
 
-        & button{
-            width: 190px;
-            font-size: 24px;
-            font-weight: 500;
-            margin-top: 70px;
-            margin-right: 0px;
-            margin-left: 280px;
-            margin-bottom: 40px;
-            padding: 8px 25px;
-            border-radius: 20px;
-            background-color: black;
-            border: 1px solid black;
-            color: white;
-            cursor: pointer;
-            text-decoration: none;
-            
-            & a{
-                color: white;
-                text-decoration: none;
-            }
-            
-            &:hover{
-                background-color: white;
-                color: black;
-                & a{
-                    color: #000000;
-                }
-            }
-        }
+  & h1 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: -180px;
+    margin-right: -200px;
+    font-size: 65px;
+    font-weight: 600;
+  }
+
+  & button {
+    width: 190px;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 70px;
+    margin-right: 0px;
+    margin-left: 280px;
+    margin-bottom: 40px;
+    padding: 8px 25px;
+    border-radius: 20px;
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+
+    & a {
+      color: white;
+      text-decoration: none;
     }
 
+    &:hover {
+      background-color: white;
+      color: black;
+      & a {
+        color: #000000;
+      }
+    }
+  }
+}
 
-    /*This is Footer Section*/
-    .footer{
-        height: 480px;
-        background-color: black;
-        padding: 100px 60px;
-        display: flex;
-        justify-content: space-between;
-        margin-inline-start: -50%;
-        margin-right: -361px;
-        
-        & img{
-            margin-left: 100px;
-            padding: 20px 40px;
-        }
+/*This is Footer Section*/
+.footer {
+  height: 480px;
+  background-color: black;
+  padding: 100px 60px;
+  display: flex;
+  justify-content: space-between;
+  margin-inline-start: -50%;
+  margin-right: -361px;
 
-        .product-footer{
-            display: flex;
-            margin-right: 300px;
-            padding: 0px 0px;
-            display: flex;
-            flex-direction: row;
-            gap: 150px;
-            line-height: 35px;
-            justify-content: left;
-            align-items: top;
-            list-style: none;
-            
-            & h3{
-                color: white;
-                font-weight: 600;
-            }
+  & img {
+    margin-left: 100px;
+    padding: 20px 40px;
+  }
 
-            & a{
-                font-size: 18px;
-                color: white;
-                text-decoration: none;
-                text-align: left;
-            }
-        }
+  .product-footer {
+    display: flex;
+    margin-right: 300px;
+    padding: 0px 0px;
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+    line-height: 35px;
+    justify-content: left;
+    align-items: top;
+    list-style: none;
 
-        .footer-text{
-            font-size: 16px;
-            padding-top: 40px;
-            margin-top: 380px;
-            position: absolute;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            color: white;
+    & h3 {
+      color: white;
+      font-weight: 600;
+    }
 
-            & p{
-                margin-top: 30px;
-                font-weight: 100;
-                opacity: 0.9;
-                line-height: 22px;
-            }
+    & a {
+      font-size: 18px;
+      color: white;
+      text-decoration: none;
+      text-align: left;
+    }
+  }
 
-            & hr{
-                    margin-left: -60px;
-                    margin-right: -60px;
-                    width: 900px;
-                    padding: 0px 612px 0px 0px;
-                    height: 0.2px;
-                }
-            }
-        }
+  .footer-text {
+    font-size: 16px;
+    padding-top: 40px;
+    margin-top: 380px;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
 
+    & p {
+      margin-top: 30px;
+      font-weight: 100;
+      opacity: 0.9;
+      line-height: 22px;
+    }
 
+    & hr {
+      margin-left: -60px;
+      margin-right: -60px;
+      width: 900px;
+      padding: 0px 612px 0px 0px;
+      height: 0.2px;
+    }
+  }
+}
 
 /*Responsive for Phone View*/
 
 @media (max-device-width: 767px) {
-    body {
-        padding: 0px;
-        margin: 0px;
-        max-width: 767px;
-    }
-    
-    .navbar{
-        padding: 0px;
-        
-        .logo{
-            margin-top: 10px;
-            padding: 10px 20px;
-            width: 10%;
-        }
+  body {
+    padding: 0px;
+    margin: 0px;
+    max-width: 767px;
+  }
 
-        .nav-link {
+  .navbar {
+    display: flex;
+    padding: 0px;
+
+    .logo {
+      max-width: 50%;
+      height: auto;
+      margin-top: 10px;
+      padding: 10px 30px;
+      margin-right: -10px;
+    }
+
+    .nav-link {
+      content-visibility: hidden;
+    }
+
+    .nab-buttom {
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+      margin-top: 10px;
+      margin-right: -0px;
+
+      .login-btn {
+        margin-left: -10px;
+        font-size: 12px;
+        padding: 5px 15px;
+        border-radius: 10px;
+      }
+
+      .signup-btn {
+        flex-direction: row;
+        width: 90px;
+        font-size: 12px;
+        padding: 5px 15px;
+        padding: 5px 0px;
+      }
+
+      .nav-icon {
         content-visibility: hidden;
-        }
-
-        .nab-buttom{
-            display: flex;
-            flex-direction: column;
-            gap: 5px;
-            margin-top: 10px;
-            margin-right: -40px;
-                    
-        .login-btn{
-            font-size: 12px;
-            padding: 5px 22px;
-            border-radius: 10px;
-        }
-        
-        .signup-btn{
-            font-size: 12px;
-            padding: 5px 15px;
-            border-radius: 10px;
-            }
-
-        .nav-icon{
-            content-visibility: hidden;
-        }
+      }
     }
-}
+  }
 
-.offer-body{
-    & img{
-        width: 100%;
-        height: 800px;
-        object-fit: cover;
+  .offer-body {
+    & img {
+      width: 100%;
+      height: 800px;
+      object-fit: cover;
     }
-}
+  }
 
-.offer-box{
+  .offer-box {
     position: absolute;
     top: 50%;
     left: 10%;
@@ -647,160 +631,336 @@ body {
     top: 10%;
     width: 60%;
     opacity: 0.9;
-    
 
-& h1{
-    font-size: 25px;
-    font-weight: 700;
-    margin-bottom: 40px;
-}
-}
+    & h1 {
+      font-size: 25px;
+      font-weight: 700;
+      margin-bottom: 40px;
+    }
+  }
 
-/*This is Form Section*/
+  /*This is Form Section*/
 
-.dropdown-option{
-        display: flex;
-        flex-direction: column;
-        
+  .dropdown-option {
+    display: flex;
+    flex-direction: column;
 
-    & Select{
-        margin-bottom: 20px;
-        width: 100%;
-        padding: 15px 50px;
-        padding-right: 70px;
-        
+    & Select {
+      margin-bottom: 20px;
+      width: 100%;
+      padding: 15px 50px;
+      padding-right: 70px;
     }
 
-    .find-offer{
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        padding-top: 5px;
-        gap: 20px;
-    
-        & input{
-            width: 100%;
-            justify-content: center;
-            padding: 15px 0px;
-            }
-        
-        & button{
-            margin-top: 8px;
-            width: 100%;
-            justify-content: center;
-            padding: 15px 0px;
-        }
-    }
-}
+    .find-offer {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      padding-top: 5px;
+      gap: 20px;
 
-.zappr-btn{
+      & input {
+        width: 100%;
+        justify-content: center;
+        padding: 15px 0px;
+      }
+
+      & button {
+        margin-top: 8px;
+        width: 100%;
+        justify-content: center;
+        padding: 15px 0px;
+      }
+    }
+  }
+
+  .zappr-btn {
     width: 100%;
     margin-left: 3px;
     margin-top: 100px;
     padding: 10px 40px;
     border-radius: 20px;
 
-    & a{
-        color: white;
-        }
-}
+    & a {
+      color: white;
+    }
+  }
 
-/*This is Client Logo Section*/
-.client-logo{
+  /*This is Client Logo Section*/
+  .client-logo {
     margin-top: -10px;
     height: 200px;
     width: 100%;
     padding-left: 110px;
-    padding-right: 107px;
-    
-}
+    padding-right: 105px;
+  }
 
-.customer-logo{
+  .customer-logo {
     width: 100%;
     height: 500px;
     padding-left: 25px;
 
-    & img{
-        object-fit: cover;
-        width: 280px;
-        height: 50px;
+    & img {
+      object-fit: cover;
+      width: 280px;
+      height: 50px;
     }
-}
+  }
 
-    /*This is About Section*/
+  /*This is About Section*/
 
-    .about-section{
-        padding: 10px;
-        margin-bottom: 200px;
+  .about-section {
+    padding: 10px;
+    margin-bottom: 200px;
 
-        & h1{
-            margin-left: -70px;
-            font-size: 25px;
-            font-weight: 600;
-                    }
-    
-        .about-box{
-            margin-left: -30px;
-            
-            display: flex;
-            flex-direction: column;
-            gap: 40px;
-            
-        }
-        & div{
-            padding-top: 20px;
-            height: 280px;
-            width: 280px;
-            
-            
-        }
-        & h2{
-            width: 280px;
-            font-size: 25px;
-            font-weight: 600;
-
-        }
-
-        & p{
-            font-size: 16px;
-            line-height: 25px;
-         
-        }
-
-        & a{
-            
-            font-weight: 600;
-            font-size: 16px;
-            color: black;
-            
-        }
-        & img{
-            max-width: 100%;
-            width: 60px;
-            height: 60px;
-        }
-
-        & button{
-            width: 190px;
-            display: flex;
-            margin-top: 430%;
-            margin-left: -0px;
-            margin-right: -15px;
-            flex-direction: row;
-            padding: 7px 25px;
-           
-        }
+    & h1 {
+      margin-left: -70px;
+      font-size: 25px;
+      font-weight: 600;
     }
 
-    .hr{
-        margin-top: 00px;
+    .about-box {
+      margin-left: -30px;
+
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+    }
+    & div {
+      padding-top: 20px;
+      height: 280px;
+      width: 280px;
+    }
+    & h2 {
+      width: 280px;
+      font-size: 25px;
+      font-weight: 600;
+    }
+
+    & p {
+      font-size: 16px;
+      line-height: 25px;
+    }
+
+    & a {
+      font-weight: 600;
+      font-size: 16px;
+      color: black;
+    }
+    & img {
+      max-width: 100%;
+      width: 60px;
+      height: 60px;
+    }
+
+    & button {
+      width: 190px;
+      display: flex;
+      margin-top: 420%;
+      margin-left: 25px;
+      margin-right: -15px;
+      flex-direction: row;
+      padding: 7px 25px;
+    }
+  }
+
+  .hr {
+    margin-top: 80px;
+    display: flex;
+    margin-left: -415px;
+    width: 100%;
+    padding: 0px 300px 0px 195px;
+    justify-items: center;
+    align-items: center;
+    height: 0.4px;
+    background-color: black;
+  }
+
+  /*This is Buy/Sell Section*/
+  .buyandsell {
+    margin-top: -220px;
+    width: 460px;
+    height: 1050px;
+    padding: 0px 0px 0px 0px;
+  }
+
+  .buy-sec {
+    margin-left: -25px;
+    box-sizing: border-box;
+    padding: 20px 100px;
+    margin-top: -40px;
+
+    & h1 {
+      padding-left: 70px;
+      font-weight: 600;
+      text-align: center;
+    }
+    & div {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      height: 60px;
+      width: 310px;
+      padding: 10px 30px 10px 25px;
+      justify-content: center;
+
+      & p {
+        font-size: 14px;
+      }
+    }
+    & img {
+      width: 40px;
+      height: 40px;
+    }
+    & button {
+      margin-top: 30px;
+      margin-left: 90px;
+      margin-bottom: 40px;
+      padding: 7px 25px;
+    }
+  }
+
+  /*This is Sell Section*/
+
+  .sell-sec {
+    margin-left: -25px;
+    box-sizing: border-box;
+    padding: 20px 100px;
+    margin-top: -40px;
+
+    & h1 {
+      padding-left: 70px;
+      font-weight: 600;
+      text-align: center;
+    }
+    & div {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      height: 60px;
+      width: 310px;
+      padding: 10px 30px 10px 25px;
+      justify-content: center;
+
+      & p {
+        font-size: 14px;
+      }
+    }
+    & img {
+      width: 40px;
+      height: 40px;
+    }
+
+    .sell-button {
+      margin-top: 30px;
+      margin-left: 90px;
+      margin-bottom: 40px;
+      padding: 7px 25px;
+    }
+  }
+
+  /*This is Sign up Text Section*/
+
+  .signup-text_box {
+    width: 100%;
+    height: 300px;
+    padding: 20px 80px 10px 137px;
+    align-items: center;
+    background-color: #cfbaff;
+
+    & h1 {
+      text-align: center;
+      margin-top: 30px;
+      margin-left: -10px;
+      margin-right: -10px;
+      font-size: 30px;
+      font-weight: 600;
+    }
+
+    & button {
+      font-size: 18px;
+      margin-top: 30px;
+      margin-left: 25px;
+      margin-bottom: 40px;
+      padding: 7px 25px;
+    }
+  }
+
+  /*This is Footer Section*/
+  .footer {
+    height: 1600px;
+    width: 445px;
+    margin-top: 0px;
+    background-color: black;
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    & img {
+      margin-top: 50px;
+      margin-left: 25px;
+      padding-top: 50px;
+      max-width: 70%;
+      height: auto;
+    }
+
+    .product-footer {
+      display: flex;
+      margin-right: 0px;
+      padding: 0px 0px;
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+      line-height: 35px;
+      justify-content: center;
+      text-align: center;
+      margin-bottom: 500px;
+
+      & h3 {
+        font-size: 25px;
+        color: white;
+        font-weight: 600;
+        text-decoration: underline;
+      }
+
+      & a {
+        font-size: 18px;
+        color: white;
+        text-decoration: none;
+        text-align: left;
+      }
+    }
+
+    .footer-text {
+      font-size: 12px;
+      margin-top: 200px;
+      position: absolute;
+      justify-content: left;
+      text-align: center;
+      color: white;
+
+      & p {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding: 10px 10px 0px 50px;
+        font-weight: 100;
+        opacity: 0.9;
+        line-height: 22px;
+      }
+
+      & hr {
+        margin-top: 950px;
         display: flex;
         margin-left: -415px;
         width: 100%;
-        padding: 0px 550px 0px 195px;
+        padding: 0px 300px 0px 195px;
         justify-items: center;
         align-items: center;
         height: 0.4px;
-        background-color: black;
+        height: 0.2px;
+      }
     }
+  }
 }
